@@ -18,7 +18,6 @@ with open('onehot_encoder_geo.pkl', 'rb') as file:
 with open('scaler.pkl', 'rb') as file:
     scaler = pickle.load(file)
 
-
 ## streamlit app
 st.title('Customer Churn PRediction')
 
